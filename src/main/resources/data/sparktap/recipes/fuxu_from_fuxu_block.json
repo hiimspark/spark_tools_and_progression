@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "sparktap:fuxu_block"
+    }
+  ],
+  "result": {
+    "item": "sparktap:fuxu",
+    "count": 9
+  }
+}

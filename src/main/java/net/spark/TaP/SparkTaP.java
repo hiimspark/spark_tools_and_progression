@@ -11,6 +11,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.spark.TaP.block.ModBlocks;
 import net.spark.TaP.item.ModCreativeModTabs;
 import net.spark.TaP.item.ModItems;
 import org.slf4j.Logger;
@@ -27,6 +28,7 @@ public class SparkTaP {
         ModCreativeModTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

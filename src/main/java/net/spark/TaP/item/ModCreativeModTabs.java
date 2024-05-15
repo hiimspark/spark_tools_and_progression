@@ -8,6 +8,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import net.spark.TaP.SparkTaP;
+import net.spark.TaP.block.ModBlocks;
 
 public class ModCreativeModTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
@@ -19,6 +20,11 @@ public class ModCreativeModTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.FUXU.get());
                         pOutput.accept(ModItems.RAW_FUXU.get());
+                        pOutput.accept(ModBlocks.FUXU_BLOCK.get());
+                        pOutput.accept(ModBlocks.FUXU_ORE.get());
+                        pOutput.accept(ModBlocks.DEEPSLATE_FUXU_ORE.get());
+                        pOutput.accept(ModBlocks.NETHER_FUXU_ORE.get());
+                        pOutput.accept(ModBlocks.END_FUXU_ORE.get());
                     })
                     .build());
 

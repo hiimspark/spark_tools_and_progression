@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "fuxu",
+  "ingredient": {
+    "item": "sparktap:raw_fuxu"
+  },
+  "result": "sparktap:fuxu"
+}
