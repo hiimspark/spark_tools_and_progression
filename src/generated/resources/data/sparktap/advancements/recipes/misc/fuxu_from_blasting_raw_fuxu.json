@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_fuxu": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "sparktap:raw_fuxu"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "sparktap:fuxu_from_blasting_raw_fuxu"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_raw_fuxu",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "sparktap:fuxu_from_blasting_raw_fuxu"
+    ]
+  },
+  "sends_telemetry_event": false
+}

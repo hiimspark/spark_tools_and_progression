@@ -1,0 +1,16 @@
+// 1.20.1	2024-05-15T15:53:26.9927495	Block States: sparktap
+1138bb1a5efd32df40a6286f163c9ce8f396c96f assets/sparktap/blockstates/deepslate_fuxu_ore.json
+68a22ba41fb390081b402013e2e46c6909d80cb2 assets/sparktap/blockstates/end_fuxu_ore.json
+146b88b87350999455f52305b4a73435a1568a34 assets/sparktap/blockstates/fuxu_block.json
+1021eb1f9af39d78e647cedf95eef6a68a5f21a7 assets/sparktap/blockstates/fuxu_ore.json
+5881bfdcbf5be7e609264e55ab618dda394925a8 assets/sparktap/blockstates/nether_fuxu_ore.json
+7285d2c0b88e005727f655056fed6210674c98a4 assets/sparktap/models/block/deepslate_fuxu_ore.json
+443b9da11c6ee40e1107b474b34a4be0085afb72 assets/sparktap/models/block/end_fuxu_ore.json
+343900e4f81838603ccbf1c1aad9002695f15267 assets/sparktap/models/block/fuxu_block.json
+0595d26447179c37c80c317f25f5e5fe8d33a360 assets/sparktap/models/block/fuxu_ore.json
+382399a0750f7c4fb43ebf686541ca59a630b755 assets/sparktap/models/block/nether_fuxu_ore.json
+771a0840af2c2e016f98325dcc4ab25590ece1f7 assets/sparktap/models/item/deepslate_fuxu_ore.json
+558bf9b5b53741b34dd8c9a26e20a34d2e0a34db assets/sparktap/models/item/end_fuxu_ore.json
+91c5293d133792b30d278c504e0a357f3d7dfce5 assets/sparktap/models/item/fuxu_block.json
+4a32c3fcaf5b22d7796d59ab5e95378fce9c4e2f assets/sparktap/models/item/fuxu_ore.json
+76ff7c6465d39b4bbd5e565af5e3a44e9c9f0c95 assets/sparktap/models/item/nether_fuxu_ore.json
