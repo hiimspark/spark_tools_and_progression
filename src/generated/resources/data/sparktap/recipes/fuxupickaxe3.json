@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "sparktap:fuxupickaxe2"
+    },
+    {
+      "item": "sparktap:fuxugemp3"
+    }
+  ],
+  "result": {
+    "item": "sparktap:fuxupickaxe3"
+  }
+}

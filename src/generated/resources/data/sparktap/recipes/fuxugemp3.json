@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "E": {
+      "item": "minecraft:end_stone_bricks"
+    },
+    "S": {
+      "item": "sparktap:fuxushard"
+    }
+  },
+  "pattern": [
+    "SES",
+    "EDE",
+    "SES"
+  ],
+  "result": {
+    "item": "sparktap:fuxugemp3"
+  },
+  "show_notification": true
+}

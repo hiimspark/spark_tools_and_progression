@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "minecraft:cobblestone"
+    },
+    "O": {
+      "item": "minecraft:obsidian"
+    },
+    "S": {
+      "item": "sparktap:fuxushard"
+    }
+  },
+  "pattern": [
+    "SCS",
+    "COC",
+    "SCS"
+  ],
+  "result": {
+    "item": "sparktap:fuxugemp1"
+  },
+  "show_notification": true
+}

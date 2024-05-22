@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_fuxu": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "sparktap:fuxu"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "sparktap:fuxugemshov1"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_fuxu",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "sparktap:fuxugemshov1"
+    ]
+  },
+  "sends_telemetry_event": false
+}

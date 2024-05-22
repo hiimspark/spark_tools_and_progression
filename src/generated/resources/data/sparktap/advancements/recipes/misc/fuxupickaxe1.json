@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_fuxupickaxebase": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "sparktap:fuxupickaxebase"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "sparktap:fuxupickaxe1"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_fuxupickaxebase",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "sparktap:fuxupickaxe1"
+    ]
+  },
+  "sends_telemetry_event": false
+}

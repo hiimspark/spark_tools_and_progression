@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "S": {
+      "item": "sparktap:fuxushard"
+    },
+    "X": {
+      "item": "minecraft:soul_soil"
+    }
+  },
+  "pattern": [
+    "SXS",
+    "XDX",
+    "SXS"
+  ],
+  "result": {
+    "item": "sparktap:fuxugemshov2"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Welcome to Spark's Tools & Progression!",
+  "icon": "minecraft:writable_book",
+  "category": "sparktap:category",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Welcome!"
+    }
+  ]
+}

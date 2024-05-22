@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_fuxugema1": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "sparktap:fuxugema1"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "sparktap:fuxugema2"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_fuxugema1",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "sparktap:fuxugema2"
+    ]
+  },
+  "sends_telemetry_event": false
+}

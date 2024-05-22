@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "O": {
+      "item": "minecraft:obsidian"
+    },
+    "S": {
+      "item": "sparktap:fuxushard"
+    },
+    "X": {
+      "item": "minecraft:bone"
+    }
+  },
+  "pattern": [
+    "SXS",
+    "XOX",
+    "SXS"
+  ],
+  "result": {
+    "item": "sparktap:fuxugemsword1"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_fuxushov1": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "sparktap:fuxushov1"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "sparktap:fuxushov2"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_fuxushov1",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "sparktap:fuxushov2"
+    ]
+  },
+  "sends_telemetry_event": false
+}

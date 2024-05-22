@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "S": {
+      "item": "sparktap:fuxushard"
+    },
+    "X": {
+      "item": "minecraft:sand"
+    },
+    "Y": {
+      "item": "minecraft:end_stone"
+    }
+  },
+  "pattern": [
+    "SYS",
+    "XDX",
+    "SYS"
+  ],
+  "result": {
+    "item": "sparktap:fuxugemshov3"
+  },
+  "show_notification": true
+}

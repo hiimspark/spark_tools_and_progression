@@ -1,0 +1,16 @@
+{
+  "name": "Fuxu Ore",
+  "icon": "sparktap:fuxu_ore",
+  "category": "sparktap:category",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Fuxu Ore is a new type of resources, spawning from Y:25 to Y:-64! You can smelt Raw Fuxu Gem to get Fuxu Gem."
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "sparktap:fuxu_from_smelting_fuxu_ore",
+      "text": "Like that!"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "N": {
+      "item": "minecraft:nether_bricks"
+    },
+    "S": {
+      "item": "sparktap:fuxushard"
+    }
+  },
+  "pattern": [
+    "SNS",
+    "NDN",
+    "SNS"
+  ],
+  "result": {
+    "item": "sparktap:fuxugemp2"
+  },
+  "show_notification": true
+}

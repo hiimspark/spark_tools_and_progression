@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "F": {
+      "item": "sparktap:fuxu"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " F ",
+    " S ",
+    " S "
+  ],
+  "result": {
+    "item": "sparktap:fuxushovelbase"
+  },
+  "show_notification": true
+}
